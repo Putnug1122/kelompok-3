@@ -1,11 +1,7 @@
 <template>
-  <div class="card">
-    <div class="card-body">
-      <div class="row">
-        <div class="col-md-3">
-          <card-item class="shadow-md" />
-        </div>
-      </div>
+  <div class="row">
+    <div class="col-md-3">
+      <card-item class="shadow" />
     </div>
   </div>
 </template>
