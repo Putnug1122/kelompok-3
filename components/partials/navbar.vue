@@ -9,14 +9,6 @@
             ></a>
           </li>
           <li>
-            <a
-              href="#"
-              data-toggle="search"
-              class="nav-link nav-link-lg d-sm-none"
-              ><i class="fas fa-search"></i
-            ></a>
-          </li>
-          <li>
             <h6 class="mt-2 text-white">Fullstack Academy</h6>
           </li>
         </ul>
