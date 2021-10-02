@@ -1,8 +1,7 @@
 <template>
-  <div class="row">
-    <div class="col-md-3">
-      <card-item class="shadow" />
-    </div>
+  <div>
+    <list-item class="shadow" />
+    <card-item />
   </div>
 </template>
 <script>
