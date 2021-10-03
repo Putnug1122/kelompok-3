@@ -30,6 +30,11 @@
                 <button class="btn btn-primary">Deskripsi</button>
                 <button class="btn btn-secondary">Jadwal</button>
                 <p class="mt-5">{{ desc }}</p>
+                <!-- this appear when jadwal clicked -->
+                <div>
+                  <p>Jadwal Mulai : {{ start }}</p>
+                  <p>Jadwal Selesai : {{ end }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -89,6 +94,14 @@ export default {
     link: {
       type: String,
       default: '#',
+    },
+    start: {
+      type: String,
+      default: '19 Agustus 2021',
+    },
+    end: {
+      type: String,
+      default: '19 Desember 2021',
     },
   },
 }

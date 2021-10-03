@@ -1,7 +1,7 @@
 <template>
   <div>
     <list-item class="shadow" />
-    <card-item />
+    <materi-item />
   </div>
 </template>
 <script>
