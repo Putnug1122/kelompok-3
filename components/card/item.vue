@@ -46,7 +46,9 @@
             >
               Tutup
             </button>
-            <button type="button" class="btn btn-primary">Lihat Kelas</button>
+            <a href="/kelas-saya">
+              <button type="button" class="btn btn-primary">Lihat Kelas</button>
+            </a>
           </div>
         </div>
       </div>

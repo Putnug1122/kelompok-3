@@ -13,6 +13,11 @@
           </li>
         </ul>
       </form>
+      <ul class="navbar-nav mr-auto text-white cursor-pointer">
+        <li class="nav-item"><a href="" class="nav-link">Kelas</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Jadwal</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Anggota</a></li>
+      </ul>
       <ul class="navbar-nav navbar-right">
         <li class="dropdown">
           <h6 class="mt-2 text-white">
@@ -23,3 +28,5 @@
     </nav>
   </div>
 </template>
+<script>
+

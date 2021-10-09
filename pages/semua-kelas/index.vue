@@ -1,7 +1,6 @@
 <template>
   <div>
-    <list-item class="shadow" />
-    <materi-item />
+    <card-item class="shadow" />
   </div>
 </template>
 <script>
