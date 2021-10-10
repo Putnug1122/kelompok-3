@@ -2,21 +2,13 @@
   <div class="card mb-3 w-100">
     <div class="row no-gutters">
       <div class="col-md-4 d-flex align-items-center justify-content-center">
-        <img
-          src="https://nuxtjs.org/design-kit/colored-logo.png"
-          alt="..."
-          class="img-fluid"
-        />
+        <img :src="image" alt="..." class="img-fluid" />
       </div>
       <div class="col-md-7">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">{{ name }}</h5>
           <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            {{ date }}
           </p>
         </div>
       </div>
@@ -26,7 +18,7 @@
             <i class="fas fa-ellipsis-v"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">Sunting</a>
+            <a class="dropdown-item" :href="link">Sunting</a>
             <a class="dropdown-item" href="#">Hapus</a>
           </div>
         </div>
@@ -34,3 +26,25 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  props: {
+    name: {
+      type: String,
+      default: 'Fullstack Academy',
+    },
+    image: {
+      type: String,
+      default: 'https://nuxtjs.org/design-kit/colored-logo.png',
+    },
+    date: {
+      type: String,
+      default: '19 Desember 2021',
+    },
+    link: {
+      type: String,
+      default: '/kelas-saya/sunting',
+    },
+  },
+}
+</script>
